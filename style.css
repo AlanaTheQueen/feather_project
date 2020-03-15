@@ -1,0 +1,58 @@
+<style>
+  
+      #video {
+        width: 420px;
+        height: 240px
+      }
+      #center {
+        text-align: center;
+      }
+      @media (max-width: 600px) {
+        #video{
+          width: 320px;
+          height: 240px;
+        }
+      }
+      
+      .note {
+        font-family: monospace;
+        font-size: 20px;
+      }
+      #company-name {
+        font-family: monospace;
+        color: #003399;
+        font-size: 40px;
+      }
+      #header {
+        background-color: #ffffff;
+      }
+      #header-img {
+        height: 200px;
+        width: 200px;
+      }
+      #nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+        background-color: #ff9933;
+    }
+      .nav-link {
+        font-family: monospace;
+        font-size: 25px;
+      }
+      
+      #form {
+        background-color: #ff9966;
+      }
+      #email {
+        font-size: 20px;
+      }
+      #submit {
+        font-size: 20px;
+      }
+      
+      #dance-img {
+        flex-grow: 3;
+        display: flex;
+      }
+    </style>
